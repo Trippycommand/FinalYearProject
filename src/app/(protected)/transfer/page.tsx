@@ -78,8 +78,8 @@ export default function SendPage() {
       <h2 className="text-center bg-gradient-to-br from-blue-600 via-pink-600 via-65% to-rose-600 bg-clip-text py-8 text-6xl font-bold text-transparent transition-transform duration-300 ease-in-out">
         Transfer Funds
       </h2>
-      <p className="mb-8 text-center text-gray-300">
-        Please fill out the form below to complete your transaction.
+      <p className="mb-4 text-center text-gray-300">
+        Please fill out the form below to complete your transaction and send sepoliaEth to any acount you want.
       </p>
 
       <form
