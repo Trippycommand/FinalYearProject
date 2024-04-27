@@ -1,0 +1,24 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "mocha",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "verify": "npx hardhat verify --network sepolia CONTRACT_ADDRESS"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.0",
+    "@openzeppelin/contracts": "^4.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.22.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
